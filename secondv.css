@@ -1,0 +1,168 @@
+*{
+  height: 100%;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 3rem;
+  height: auto;
+}
+
+p{
+  font-size: 1.5rem;
+  height: auto;
+}
+
+  svg{
+    position:absolute;
+    z-index: 1;
+    left: 5%;
+    top: 8%;
+    width:70%;
+    height:auto;
+  }
+
+  .info{
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width:40%;
+    height: 100%;
+}
+
+ .text{
+   padding: 70% 0% 0% 10%;
+   font-size: large;
+ }
+
+  .column{
+
+    position: absolute;
+    top:0;
+    left: 40%;
+    width: 60%;
+  }
+
+.circle-text{
+  position: absolute;
+  left: 4%;
+  top:8%;
+  width: 50%;
+  height: auto
+}
+
+.Skip{
+  float: right;
+  margin-right: 9%;
+}
+
+.circle-text h1,p{
+  margin:0;
+  padding: 0;
+  margin-top: 3%;
+}
+
+.circle-text{
+  z-index: 2;
+position: absolute;
+ left: 25%;
+ top: 28%;
+ width: 80%;
+ text-align:right;
+}
+
+.owl-item.active .text {
+  animation:zoomIn ease  1s;
+}
+
+.owl-item.active .circle-text{
+  animation:zoomIn ease  1s;
+}
+
+.owl-item.active .up-img{
+  animation:fadeInUp ease  1s;
+}
+
+.owl-item.active .up-img2{
+  animation:fadeInUp ease  2s;
+}
+
+.owl-item.active .down-img{
+  animation:fadeInDown ease  1s;
+}
+
+.owl-item.active .right-img{
+  animation:slideInRight ease  1s;
+}
+
+
+@media (max-width:900px){
+  svg{
+    display: none;
+  }
+
+  .Skip{
+    display: none;
+  }
+  .owl-item.active .right-img{
+    animation: none;
+  }
+
+  .owl-item.active .down-img{
+    animation: none;
+  }
+
+  .owl-item.active .up-img{
+    animation: none;
+  } 
+
+  .owl-item.active .up-img2{
+    animation: none;
+  } 
+
+  .owl-item.active .text {
+    animation: none;
+  }
+
+  h1{
+    font-size: 3.5rem;
+    height: auto;
+  }
+
+  p{
+    font-size: 2rem;
+    height: auto;
+  }
+
+.info{
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: left;
+  height: 40%;
+}
+
+.column{
+  left: 0%;
+  position: absolute;
+  top: 0%;
+  height: 60%;
+  width: 100%;
+}
+
+ .text{
+   padding: 0;
+   margin: 0;
+ position: absolute;
+ top:10%;
+ left:5%;
+ }
+
+ .circle-text{
+   visibility: hidden;
+ }
+  }
