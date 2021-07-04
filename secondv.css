@@ -15,6 +15,7 @@ h1{
 p{
   font-size: 1.5rem;
   height: auto;
+  color: white;
 }
 
   svg{
@@ -52,7 +53,8 @@ p{
   left: 4%;
   top:8%;
   width: 50%;
-  height: auto
+  height: auto;
+  color: white;
 }
 
 .Skip{
